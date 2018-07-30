@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const express = require('express');
 const multer = require('multer');
+const morgan = require('morgan');
 const Discord = require('discord.js');
 const http = require('http');
 const fs = require('fs');
